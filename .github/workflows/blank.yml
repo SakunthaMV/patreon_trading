@@ -19,5 +19,7 @@ jobs:
         uses: actions/setup-python@v5.0.0
         with:
           python-version: '3.10'
+      - name: Install requirements
+        run: pip install -r requirements.txt
       - name: Run initial
         run: python initial.py
