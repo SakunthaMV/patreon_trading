@@ -1,3 +1,5 @@
+from pybit.unified_trading import HTTP
+
 def access_bybit_profile():
     return HTTP(
         testnet=False,
